@@ -1,0 +1,58 @@
+/* Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Logo */
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  /* Card Styles */
+  .basket-item {
+    background-color: #fafafa;
+    border-radius: 12px;
+  }
+  
+  .order-summary {
+    background-color: #fcfcfc;
+    border-radius: 12px;
+  }
+  
+  /* Typography */
+  .card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .price-per-kg {
+    font-size: 0.9rem;
+    color: #4CAF50;
+  }
+  
+  .item-total {
+    font-weight: 700;
+  }
+  
+  /* Buttons */
+  .btn-success {
+    background-color: #4CAF50;
+    border: none;
+    font-weight: 500;
+  }
+  
+  .btn-success:hover {
+    background-color: #45A049;
+  }
+  
+  /* Container and Card Padding */
+  .container {
+    max-width: 1200px;
+  }
+  

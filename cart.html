@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Basket</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="py-3 border-bottom">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="logo mb-0">World Peas</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link text-dark">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark">Shop</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark">Contact</a></li>
+          <li class="nav-item"><a href="#" class="btn btn-outline-dark">Basket</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="container my-4">
+    <div class="row">
+      <!-- Basket Items -->
+      <div class="col-lg-8">
+        <div class="card mb-3 shadow-sm border-0 basket-item">
+          <div class="row g-0 align-items-center">
+            <div class="col-md-2">
+              <img src="images/tomato.png" class="img-fluid rounded-start" alt="Heirloom Tomato">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Heirloom Tomato</h5>
+                <p class="card-text price-per-kg">$5.99 / kg</p>
+              </div>
+            </div>
+            <div class="col-md-3 text-end px-3">
+              <p class="fs-5 item-total">$5.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 shadow-sm border-0 basket-item">
+          <div class="row g-0 align-items-center">
+            <div class="col-md-2">
+              <img src="images/ginger.png" class="img-fluid rounded-start" alt="Organic Ginger">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Organic Ginger</h5>
+                <p class="card-text price-per-kg">$12.99 / kg</p>
+              </div>
+            </div>
+            <div class="col-md-3 text-end px-3">
+              <p class="fs-5 item-total">$6.50</p>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 shadow-sm border-0 basket-item">
+          <div class="row g-0 align-items-center">
+            <div class="col-md-2">
+              <img src="images/onion.png" class="img-fluid rounded-start" alt="Sweet Onion">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Sweet Onion</h5>
+                <p class="card-text price-per-kg">$2.99 / kg</p>
+              </div>
+            </div>
+            <div class="col-md-3 text-end px-3">
+              <p class="fs-5 item-total">$14.95</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Order Summary -->
+      <div class="col-lg-4">
+        <div class="card p-3 shadow-sm border-0 order-summary">
+          <h5 class="card-title">Order Summary</h5>
+          <div class="d-flex justify-content-between">
+            <p>Subtotal</p>
+            <p>$27.44</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Shipping</p>
+            <p>$3.99</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Tax</p>
+            <p>$2.00</p>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <strong>Total</strong>
+            <strong>$33.43</strong>
+          </div>
+          <button class="btn btn-success w-100 mt-3">Continue to payment</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
